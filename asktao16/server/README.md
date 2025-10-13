@@ -16,7 +16,7 @@ docker run -d \
   --ip 172.20.0.10 \
   mysql:5.7.44
   
-# 运行 asktakssh
+# 运行 asktakserver
 docker run -d --name asktaoserver \
    --network asktao-network \
    --ip 172.20.0.11 \
