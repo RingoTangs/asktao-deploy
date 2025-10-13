@@ -1,18 +1,18 @@
 import fs from "node:fs";
 import iconv from "iconv-lite";
 
-const IP = "192.168.0.21";
+const IP = "47.97.104.166";
 
 const DIST = "万里长城";
 
 const ONE_LINE_NAME = `${DIST}一线`;
-const ONE_LINE_IP = "192.168.0.21";
+const ONE_LINE_IP = "47.97.104.166";
 
 const TWO_LINE_NAME = `${DIST}二线`;
-const TWO_LINE_IP = "192.168.0.21";
+const TWO_LINE_IP = "47.97.104.166";
 
 const THREE_LINE_NAME = `${DIST}三线`;
-const THREE_LINE_IP = "192.168.0.21";
+const THREE_LINE_IP = "47.97.104.166";
 
 const OUT_PATH = "./patch.sql";
 

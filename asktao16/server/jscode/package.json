@@ -1,0 +1,19 @@
+{
+  "name": "jscode",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env MYSQL_HOST=172.20.0.10 MYSQL_USER=root MYSQL_PASSWORD=151024llx PUBLIC_IP=43.138.12.26 DIST=万里长城 node index.js"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.21",
+    "cross-env": "^10.1.0"
+  }
+}

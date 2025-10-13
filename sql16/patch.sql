@@ -3,31 +3,31 @@ USE dl_adb_all;
 -- 用于 nodejs 解析生成新的更新 ip 语句的模板 sql
 
 -- 更新 aaa 表
-UPDATE `dl_adb_all`.`aaa` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`aaa` = 'aaa_daili';
+UPDATE `dl_adb_all`.`aaa` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`aaa` = 'aaa_daili';
 
 -- 更新 ccs 表
-UPDATE `dl_adb_all`.`ccs` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`ccs` = 'ccs_daili';
+UPDATE `dl_adb_all`.`ccs` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`ccs` = 'ccs_daili';
 
 -- 更新 csa 表
-UPDATE `dl_adb_all`.`csa` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`csa` = 'csa_daili';
+UPDATE `dl_adb_all`.`csa` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`csa` = 'csa_daili';
 
 -- 更新 cta 表
-UPDATE `dl_adb_all`.`cta` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`access_adb_user` = 'root';
+UPDATE `dl_adb_all`.`cta` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`access_adb_user` = 'root';
 
 -- 更新 dba 表
-UPDATE `dl_adb_all`.`dba` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`dba` = 'dba_daili';
-UPDATE `dl_adb_all`.`dba` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`dba` = 'dba_jiangw_pk';
+UPDATE `dl_adb_all`.`dba` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`dba` = 'dba_daili';
+UPDATE `dl_adb_all`.`dba` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`dba` = 'dba_jiangw_pk';
 
 -- 更新 ldba 表
-UPDATE `dl_adb_all`.`ldba` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`ldba` = 'ldba_jiangw';
-UPDATE `dl_adb_all`.`ldba` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`ldba` = 'ldba_jiangw_pk';
+UPDATE `dl_adb_all`.`ldba` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`ldba` = 'ldba_jiangw';
+UPDATE `dl_adb_all`.`ldba` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`ldba` = 'ldba_jiangw_pk';
 
 -- 更新 spa 表
-UPDATE `dl_adb_all`.`spa` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`spa` = 'spa_jiangw';
-UPDATE `dl_adb_all`.`spa` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`spa` = 'spa_jiangw_pk';
+UPDATE `dl_adb_all`.`spa` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`spa` = 'spa_jiangw';
+UPDATE `dl_adb_all`.`spa` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`spa` = 'spa_jiangw_pk';
 
 -- 更新 tts 表
-UPDATE `dl_adb_all`.`tts` as `t` SET `t`.`ip` = '192.168.0.21' WHERE `t`.`tts` = 'tts_jiangw';
+UPDATE `dl_adb_all`.`tts` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`tts` = 'tts_jiangw';
 
 -- 用于 nodejs 解析生成新的更新 dist 语句的模板 sql
 
@@ -164,9 +164,9 @@ CREATE TABLE `server` (
 LOCK TABLES `server` WRITE;
 /*!40000 ALTER TABLE `server` DISABLE KEYS */;
 -- INSERT INTO `server` VALUES ('三线','','118.24.7.124',8162,1200,'问道一区',1,'','','','',0,0,0,0,3,'','','',0,NULL),('一线','','118.24.7.124',8160,1200,'问道一区',1,'network','','','',0,0,0,600,1,'apex1','','',0,NULL),('二线','','118.24.7.124',8161,1200,'问道一区',1,'','','','',0,0,0,0,2,'','','',0,NULL);
-INSERT INTO `server` VALUES ('万里长城一线','','192.168.0.21',8160,1200,'万里长城',1,'network','','','',0,0,0,600,1,'apex1','','',0,NULL);
-INSERT INTO `server` VALUES ('万里长城二线','','192.168.0.21',8161,1200,'万里长城',1,'','','','',0,0,0,0,2,'','','',0,NULL);
-INSERT INTO `server` VALUES ('万里长城三线','','192.168.0.21',8162,1200,'万里长城',1,'','','','',0,0,0,0,3,'','','',0,NULL);
+INSERT INTO `server` VALUES ('万里长城一线','','47.97.104.166',8160,1200,'万里长城',1,'network','','','',0,0,0,600,1,'apex1','','',0,NULL);
+INSERT INTO `server` VALUES ('万里长城二线','','47.97.104.166',8161,1200,'万里长城',1,'','','','',0,0,0,0,2,'','','',0,NULL);
+INSERT INTO `server` VALUES ('万里长城三线','','47.97.104.166',8162,1200,'万里长城',1,'','','','',0,0,0,0,3,'','','',0,NULL);
 /*!40000 ALTER TABLE `server` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

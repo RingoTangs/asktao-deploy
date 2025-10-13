@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t asktao16-base:1.0 .
+docker build -t asktao16-ssh:1.0 .
