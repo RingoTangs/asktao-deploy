@@ -8,13 +8,13 @@ const MYSQL_PASSWORD = process.env.MYSQL_PASSWORD;
 const PUBLIC_IP = process.env.PUBLIC_IP;
 const DIST = process.env.DIST;
 
-const aaaPath = path.join(__dirname, "../aaa/aaa/aaa.ini");
-const ccsPath = path.join(__dirname, "../ccs/ccs/ccs.ini");
-const csaPath = path.join(__dirname, "../csa/csa/csa.ini");
-const dbaPath = path.join(__dirname, "../dba/dba/dba.ini");
-const gs1Path = path.join(__dirname, "../gs1/gs/gs.ini");
-const gs2Path = path.join(__dirname, "../gs2/gs/gs.ini");
-const gs3Path = path.join(__dirname, "../gs3/gs/gs.ini");
+const aaaPath = path.resolve(__dirname, "./aaa/aaa/aaa.ini");
+const ccsPath = path.resolve(__dirname, "./ccs/ccs/ccs.ini");
+const csaPath = path.resolve(__dirname, "./csa/csa/csa.ini");
+const dbaPath = path.resolve(__dirname, "./dba/dba/dba.ini");
+const gs1Path = path.resolve(__dirname, "./gs1/gs/gs.ini");
+const gs2Path = path.resolve(__dirname, "./gs2/gs/gs.ini");
+const gs3Path = path.resolve(__dirname, "./gs3/gs/gs.ini");
 
 const processServer = (path) => {
   const ccs = fs.readFileSync(path);

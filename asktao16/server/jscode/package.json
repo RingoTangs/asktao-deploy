@@ -7,13 +7,18 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env MYSQL_HOST=172.20.0.10 MYSQL_USER=root MYSQL_PASSWORD=151024llx PUBLIC_IP=43.138.12.26 DIST=万里长城 node index.js"
+    "dev": "cross-env MYSQL_HOST=172.20.0.10 MYSQL_USER=root MYSQL_PASSWORD=151024llx PUBLIC_IP=43.138.12.26 DIST=万里长城 node index.js",
+    "build": "rollup -c"
   },
   "dependencies": {
     "iconv-lite": "^0.7.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
     "@types/node": "^20.19.21",
-    "cross-env": "^10.1.0"
+    "cross-env": "^10.1.0",
+    "rollup": "^4.52.4"
   }
 }
