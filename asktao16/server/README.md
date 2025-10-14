@@ -25,6 +25,9 @@ docker run -d --name asktaoserver \
    -e MYSQL_PASSWORD="151024llx" \
    -e PUBLIC_IP="47.97.104.166" \
    -e DIST="万里长城" \
+   --cpus 1 \
+   -m 1G \
+   --memory-swap -1 \
    -p 223:22 \
    -p 8110:8110 \
    -p 6101:6101 \

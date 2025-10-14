@@ -25,7 +25,7 @@ const processServer = (path) => {
     .replaceAll("{MySQL_PASSWORD}", MYSQL_PASSWORD)
     .replaceAll("{SERVER_AAA_IP}", PUBLIC_IP);
   const buf = iconv.encode(result, "gbk");
-  fs.rmSync(path, { force: true });
+  fs.renameSync(path, path + ".bak");
   fs.writeFileSync(path, buf);
 };
 
@@ -37,7 +37,7 @@ const processGS = (path, line) => {
     .replaceAll("{PUBLIC_IP}", PUBLIC_IP);
 
   const buf = iconv.encode(result, "gbk");
-  fs.rmSync(path, { force: true });
+  fs.renameSync(path, path + ".bak");
   fs.writeFileSync(path, buf);
 };
 

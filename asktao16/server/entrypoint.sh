@@ -9,4 +9,7 @@ if [ ! -d "/app/data/.create.d" ]; then
     rm -rf /app/temp/*
 fi
 
+sleep 5
+chmod -R 777 /app/data
+
 /usr/sbin/sshd -D

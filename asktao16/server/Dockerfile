@@ -27,6 +27,9 @@ COPY ./gs2/ ./gs2/
 COPY ./gs3/ ./gs3/
 COPY ./jscode/dist/index.js ./index.js
 COPY ./run.sh ./run.sh
+COPY ./rungs1.sh ./rungs1.sh
+COPY ./rungs2.sh ./rungs2.sh
+COPY ./rungs3.sh ./rungs3.sh
 
 WORKDIR /root
 COPY ./entrypoint.sh ./entrypoint.sh
