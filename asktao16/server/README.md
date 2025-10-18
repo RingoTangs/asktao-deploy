@@ -11,7 +11,7 @@ docker run -d \
   -p 3306:3306 \
   -v /home/mysql/data:/var/lib/mysql \
   -v /home/mysql/conf/my.cnf:/etc/mysql/my.cnf:ro \
-  -e MYSQL_ROOT_PASSWORD=123456 \
+  -e MYSQL_ROOT_PASSWORD=151024llx \
   --network asktao-network \
   --ip 172.20.0.10 \
   mysql:5.7.44
