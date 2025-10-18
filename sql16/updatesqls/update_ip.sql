@@ -26,3 +26,7 @@ UPDATE `dl_adb_all`.`spa` as `t` SET `t`.`ip` = '118.24.7.124' WHERE `t`.`spa` =
 
 -- 更新 tts 表
 UPDATE `dl_adb_all`.`tts` as `t` SET `t`.`ip` = '118.24.7.124' WHERE `t`.`tts` = 'tts_jiangw';
+
+-- 更新 cs_css 表
+UPDATE `dl_adb_all`.`cs_ccs` as `t` SET `t`.`ip` = '118.24.7.124' WHERE `t`.`ccs` = 'ccs_daili';
+UPDATE `dl_adb_all`.`cs_ccs` as `t` SET `t`.`ip` = '118.24.7.124' WHERE `t`.`ccs` = 'ccs_pk';

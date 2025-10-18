@@ -29,6 +29,10 @@ UPDATE `dl_adb_all`.`spa` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`spa` 
 -- 更新 tts 表
 UPDATE `dl_adb_all`.`tts` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`tts` = 'tts_jiangw';
 
+-- 更新 cs_css 表
+UPDATE `dl_adb_all`.`cs_ccs` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`ccs` = 'ccs_daili';
+UPDATE `dl_adb_all`.`cs_ccs` as `t` SET `t`.`ip` = '47.97.104.166' WHERE `t`.`ccs` = 'ccs_pk';
+
 -- 用于 nodejs 解析生成新的更新 dist 语句的模板 sql
 
 -- 更新 ccs 表
